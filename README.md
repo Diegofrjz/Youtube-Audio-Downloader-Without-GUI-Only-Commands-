@@ -6,5 +6,5 @@ The program is in Spanish, but the order to use is:
 2) Enter the location where you want to save the file. (enter the location + the name of the file with the .mp3
 3) Wait a bit, and voila!
 
-If you want an easier to use version, in my repositories there is one with a graphical interface
+If you want an easier to use version, in my repositories there is one with a graphical interface!
 
