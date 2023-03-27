@@ -1,13 +1,13 @@
 import os
 from pytube import YouTube
 
-# Pedimos al usuario que ingrese la URL del video de YouTube
+# Ingresa la URL del video de YouTube
 video_url = input('Ingresa el enlace del video de YouTube: ')
 
-# Pedimos al usuario que ingrese la ubicación donde quiere guardar el archivo de audio
+# Ingresa la ubicación donde quiere guardar el archivo de audio
 audio_path = input('Ingresa la ubicación donde quieres guardar el archivo de audio (incluyendo el nombre de archivo): ')
 
-# Descargamos el video y extraemos el audio en formato mp3
+# Descarga el video y extrae el audio en formato mp3
 yt = YouTube(video_url)
 audio = yt.streams \
     .filter(only_audio=True, file_extension='mp4') \
